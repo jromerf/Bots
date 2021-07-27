@@ -15,7 +15,7 @@ async def info(ctx):
 
 @client.command()
 async def s(ctx, *, word: str):
-    channel = client.get_channel(869610627272966204)
+    channel = client.get_channel(#####)
     print(channel)
     messages = await channel.history().flatten()
     result = []
@@ -32,7 +32,7 @@ async def s(ctx, *, word: str):
 
 @client.command()
 async def p(ctx, *, word: str):
-    channel = client.get_channel(869630779569897472)
+    channel = client.get_channel(####)
     print(channel)
     messages = await channel.history().flatten()
     result = []
@@ -49,7 +49,7 @@ async def p(ctx, *, word: str):
 
 @client.command()
 async def e(ctx, *, word: str):
-    channel = client.get_channel(869630797257269318)
+    channel = client.get_channel(###)
     print(channel)
     messages = await channel.history().flatten()
     result = []
